@@ -9,6 +9,13 @@ public class q9_PrintPattern
         ArrayList<Integer>l=new ArrayList<>();
 
         int n=10;
+
+        if(n<=0)
+        {
+            l.add(null);
+            System.out.println(l);
+            return;
+        }
         l.add(n);
 
         int a=n-5;
