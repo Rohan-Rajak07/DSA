@@ -6,9 +6,13 @@ package _0Numbers;
  */
 public class q10_IsPrime 
 {
+    
     public static boolean isPrime(int n)
     {
-        if(n<2)return false;
+        if(n<2)
+        {
+            return false;
+        }
         int sq=(int)Math.sqrt(n);
         for(int i=2; i<=sq; i++)
         {

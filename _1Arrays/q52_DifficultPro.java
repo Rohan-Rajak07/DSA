@@ -4,7 +4,7 @@
  */
 public class q52_DifficultPro 
 {
-    static int difProblem(String N) 
+    static int difProblem(String N)
     {
         // code here
         int incre=1;
